@@ -9,6 +9,7 @@ export default function Navbar() {
 
   const menuItems = [
     { name: t('nav.work'), href: "#work" },
+    { name: t('nav.immersive'), href: "#immersive" },
     { name: t('nav.experience'), href: "#experience" },
     { name: t('nav.services'), href: "#services" },
     { name: t('nav.contact'), href: "#contact" },

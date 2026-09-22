@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
+import ImmersiveExperiences from "./components/ImmersiveExperiences";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
@@ -40,6 +41,7 @@ export default function App() {
 
           <div className="relative z-10 bg-white">
             <Portfolio />
+            <ImmersiveExperiences />
             <Services />
             <Experience />
             <Contact />

@@ -11,6 +11,7 @@ interface LanguageContextType {
 const translations: Record<Language, Record<string, string>> = {
   en: {
     'nav.work': 'Projects',
+    'nav.immersive': 'Landings & 3D',
     'nav.services': 'Skills',
     'nav.experience': 'Experience',
     'nav.about': 'About',
@@ -23,6 +24,8 @@ const translations: Record<Language, Record<string, string>> = {
     'portfolio.title': 'Project Archive',
     'portfolio.subtitle': 'Selected Works 2024—2026',
     'portfolio.view': 'VIEW CASE',
+    'immersive.title': 'Interactive Landings & Experiences',
+    'immersive.subtitle': 'Selected Animated & Immersive Works 2025—2026',
     'services.title': 'Skill Stack',
     'services.subtitle': 'Bridging the gap between aesthetic precision and technical performance.',
     'services.ux.title': 'UX/UI DESIGN',
@@ -67,6 +70,7 @@ const translations: Record<Language, Record<string, string>> = {
   },
   es: {
     'nav.work': 'Proyectos',
+    'nav.immersive': 'Landings y 3D',
     'nav.services': 'Habilidades',
     'nav.experience': 'Experiencia',
     'nav.about': 'Sobre mí',
@@ -79,6 +83,8 @@ const translations: Record<Language, Record<string, string>> = {
     'portfolio.title': 'Archivo de Proyectos',
     'portfolio.subtitle': 'Trabajos Seleccionados 2024—2026',
     'portfolio.view': 'VER CASO',
+    'immersive.title': 'Landings & Experiencias Interactivas',
+    'immersive.subtitle': 'Trabajos Animados e Inmersivos Seleccionados 2025—2026',
     'services.title': 'Stack de Habilidades',
     'services.subtitle': 'Cerrando la brecha entre la precisión estética y el rendimiento técnico.',
     'services.ux.title': 'DISEÑO UX/UI',
